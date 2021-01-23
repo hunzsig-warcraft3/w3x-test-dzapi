@@ -1,4 +1,5 @@
 -- 加载h-lua
+HLUA_DEBUG = true
 require "h-lua"
 
 local redVip = hdzapi.isVipRed(hplayer.players[1])
